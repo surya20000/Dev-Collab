@@ -36,7 +36,7 @@ const App = () => {
         <>
             <Navbar />
             <AnimatedRoutes />
-            <div>
+            {/* <div>
                 <motion.button
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -53,7 +53,7 @@ const App = () => {
                         <Motion text={"Thankyou for being the part of our community!!"} handleClose={handleClose} />
                     )}
                 </AnimatePresence>
-            </div>
+            </div> */}
 
         </>
     );
