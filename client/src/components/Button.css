@@ -11,7 +11,7 @@
     height: 30px;
     border-color:transparent;
     font-size: 16px;
-    background-color: rgb(81,109,120);
+    background-color:rgba(84, 122, 247, 0.815);
     font-weight: 600;
     color: white;
     box-shadow: 0 0 0 2px #ffffff;
@@ -43,7 +43,7 @@
     transform: translate(-50%, -50%);
     width: 40px;
     height: 40px;
-    background-color: #c5e5e4;
+    background-color:rgb(54, 77, 154);
     opacity: 0;
     transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -58,7 +58,7 @@
   
   .animated-button:hover {
     box-shadow: 0 0 0 12px transparent;
-    color: #212121;
+    color:white;
     border-radius: 12px;
   }
   
@@ -77,7 +77,7 @@
 }
   
   .animated-button:hover svg {
-    fill:black;
+    fill:white;
     margin-left: 80px;
     transition: all 0.5s ease-out;
   }
