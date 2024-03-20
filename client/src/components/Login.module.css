@@ -114,6 +114,19 @@ input[type="password"] {
   border-bottom: 2px solid rgb(84,121,247);
   outline: none; 
 }
+input[type="text"]{
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  width:330px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  margin-left: 25px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(84,121,247);
+  outline: none; 
+}
 
 input[type="email"]::placeholder,
 input[type="password"]::placeholder {
