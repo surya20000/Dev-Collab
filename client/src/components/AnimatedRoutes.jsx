@@ -7,6 +7,7 @@ import { backend_Uri } from '../config/constants';
 import { AnimatePresence } from 'framer-motion';
 import UploadForm from '../components/UploadForm';
 import Login from '../components/Login';
+import PatentForm from '../components/PatentForm'
 
 
 
@@ -44,6 +45,8 @@ const AnimatedRoutes = () => {
                         element={<UploadForm getAllMedias={getAllMedias} />}
                     />
                     <Route path="/login" element={<Login />} />
+                    <Route path='/users' element={<Users />} />
+                    <Route path='/patentform' element={<PatentForm />} />
                 </Routes>
             </AnimatePresence>
         </div>
